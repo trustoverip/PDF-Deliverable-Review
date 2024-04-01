@@ -1,0 +1,31 @@
+name: "Issuer Requirements Guide for Governance Frameworks of Verifiable Credentials"
+description: Feedback
+title: "A concise description"
+assignees:
+  - ScottPerryCPA
+body:
+  - type: markdown
+    attributes:
+      value: | 
+        Issuer-Requirements-Guide-V0.01-2024-01-30.pdf
+  - type: input
+    id: section
+    attributes:
+      label: Section Number
+      description: e.g. 2.4.3
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Existing text
+      description: Cite the existing text which prompted the question or suggestion
+    validations:
+      required: false
+  - type: textarea
+    id: question-comment
+    attributes:
+      label: Question/Comment
+      description: Please suggest a proposed update/edit that would resolve your question or comment.
+    validations:
+      required: true
